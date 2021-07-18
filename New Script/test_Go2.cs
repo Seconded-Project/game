@@ -23,7 +23,7 @@ public class test_Go2 : MonoBehaviour
 
         else
         {
-            SceneManager.LoadScene("Ai_3");
+            SceneManager.LoadScene("Ai_1 jh");
         }
     }
 }

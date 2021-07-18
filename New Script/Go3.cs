@@ -22,11 +22,11 @@ public class Go3 : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag.Equals("portal"))
-            SceneManager.LoadScene("Ai_3");
+            SceneManager.LoadScene("Ai_1 jh");
 
         else
         {
-            SceneManager.LoadScene("test");
+            SceneManager.LoadScene("Ai_2 jh");
         }
     }
 }
